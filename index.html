@@ -112,9 +112,10 @@
     Спасибо Арсену и Руслану за то, что предоставили целую бочку своего напитка!
   </blockquote>
   <cite> 
-  Газета столичный Стольник
+      Газета столичный Стольник
   </cite> 
-<a href="#">Читать далее</a>
+  <a href="#">Читать далее</a>
+
 </section>
 <div>
 <h2>Ассортимент</h2>
@@ -156,5 +157,35 @@
     </tr>
 </table>
 </div>
+<form>
+  <h2>Заказать</h2>
+  <p>Не ждите пока нас отрекламируют, как Вятский квас, и мы поднимем цены! Закажите настоящий крафтовый квас сейчас.
+     При заказе от 10 баррелей — скидка 10%.
+  </p>
+  <label for="login-field">Представьтесь:</label>
+  <input type="text" name="login" id="login-field">
+  <br>
+  <label for="number-field">Номер телефона:</label>
+  <input type="tel" name="tel" id="number-field">
+  <br>
+  <label for="number2">Доп. номер:</label>
+  <input type="tel" name="tel2" id="number2">
+  <br>
+  <label for="email-field">Email:</label>
+  <input type="email" name="email" id="email-field">
+  <br>
+  <label for="fuel-field">Объем заказа:</label>
+  <select id="fuel-field">
+    <option>От 5 до 10 баррелей в неделю</option>
+  </select>
+  <br>
+  <label for="post-field">Доп. комментарий:</label>
+  <textarea id="post-field"></textarea>
+  <br>
+  <input type="checkbox" name="agree" id="agree-field">
+  <label id="agree-field">Я согласен получать квасную рассылку</label>
+  <br>
+  <input type="submit" value="Отправить заказ">
+</form>
   </body>
 </html>
